@@ -17,7 +17,7 @@ Possuímos arquivos de texto contendo uma lista de coordenadas geográficas obti
 ## Insumos
 
 Os dados necessários para o desenvolvimento da solução estão disponíveis através do link
-[data_points](https://s3.amazonaws.com/dev.etl.python/datasets/).
+[data_points](https://s3.amazonaws.com/dev.etl.python/datasets/data_points.tar.gz).
 
 O arquivo consiste de uma série de coordenadas geográficas compostas por:
 
