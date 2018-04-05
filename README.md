@@ -4,7 +4,7 @@ Trata-se de um teste simples para avaliação de competências técnicas necess�
 
 ## Problema
 
-Possuímos um arquivo de texto contendo uma lista de coordenadas geográficas obtidas a partir do GPS de um dispositivo móvel. Precisamos que esse arquivo seja processado e enriquecido com informações disponíveis na internet. O objetivo do enriquecimento é descobrir os endereços correspondentes às coordenadas. Para essa finalidade deve ser utilizada alguma API aberta, como por exemplo: _Google Maps_.
+Possuímos arquivos de texto contendo uma lista de coordenadas geográficas obtidas a partir do GPS de dispositivos móveis. Precisamos que esses arquivos sejam processados e enriquecidos com informações disponíveis na internet. O objetivo do enriquecimento é descobrir os endereços correspondentes às coordenadas. Para essa finalidade deve ser utilizada alguma API aberta, como por exemplo: _Google Maps_.
 
 ## Requisitos
 
@@ -17,7 +17,7 @@ Possuímos um arquivo de texto contendo uma lista de coordenadas geográficas ob
 ## Insumos
 
 Os dados necessários para o desenvolvimento da solução estão disponíveis através do link
-[data_points.txt](https://s3.amazonaws.com/dev.etl.python/datasets/data_points.txt).
+[data_points](https://s3.amazonaws.com/dev.etl.python/datasets/).
 
 O arquivo consiste de uma série de coordenadas geográficas compostas por:
 
@@ -50,3 +50,7 @@ Os seguintes quesitos serão avaliados:
 - Testes e validações
 - Eficiência da implementação
 - Documentação
+
+## Bônus
+
+Além do enriquecimento proposto, que análises poderiam ser feitas utilizando essa massa de dados? Que métricas poderiam ser obtidas?
